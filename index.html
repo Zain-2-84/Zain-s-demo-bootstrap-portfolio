@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zain's Portfolio - Home</title>
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Google font - Radio Canada Big -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap 5 cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Project start -->
+    <!-- px-0 = padding on x-axis is 0. -->
+    <div class="container-fluid px-0">
+      <!-- Navbar start -->
+      <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container-fluid">
+          <a href="/" class="navbar-brand">
+            <h1><i class="fa-solid fa-laptop-code me-1"></i> Zain Developer</h1>
+          </a>
+          <!-- Corrected the aria-controls attribute and removed the extra double quote -->
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- navbar-nav is used to create full-height lightweight navigation and supports dropdowns-->
+            <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+              <!-- Home nav start -->
+              <li class="nav-item">
+                <a href="/" class="nav-link me-lg-3">
+                    <h2>Home</h2>
+                </a>
+              </li>
+              <!-- Home nav end -->
+
+              <!-- About nav start -->
+              <li class="nav-item">
+                <a href="#about" class="nav-link me-lg-3">
+                    <h2>About</h2>
+
+                </a>
+              </li>
+              <!-- About nav end -->
+
+              <!-- Projects nav start -->
+              <li class="nav-item">
+                <a href="#projects" class="nav-link me-lg-3">
+                    <h2>Projects</h2>
+                </a>
+              </li>
+              <!-- Projects nav end -->
+
+              <!-- Testimonials nav start -->
+              <li class="nav-item">
+                <a href="#testimonials" class="nav-link me-lg-3"
+                  >
+                  <h2>Testimonials</h2>
+                  </a
+                >
+              </li>
+              <!-- Testimonials nav end -->
+
+              <!-- Contact nav start -->
+              <li class="nav-item">
+                <a href="#contact" class="nav-link me-lg-3">
+                    <h2>Contact</h2>
+
+                </a>
+              </li>
+              <!-- Contact nav end -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+
+      <!-- hero start -->
+      <div class="hero">
+        <!-- header start -->
+         <!-- py-5 adds padding of 5 both top and bottom. -->
+        <header class="bg-light py-5">
+            <div class="container px-5">
+                <!-- row (grid) creates a row where 12 columns can be used. align-items-center controls the vertical alignment of a single row.-->
+                 
+                <!-- hero content start -->
+                <div class="row align-items-center">
+                    <!-- Some description start -->
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <div class="my-5">
+                          <!-- intro-heading -->
+                            <div class="text-center fw-bold mb-2 intro-heading">
+                                Hi! I'm Zain.
+                            </div>
+                            <!-- intro-paragraph -->
+                            <div class="text-primary text-center fw-bold mb-2 intro-occupation">
+                              A Front-end developer.
+                            </div>
+                            <!-- lead increases the font-size and line-height of a paragraph. text-muted will set the font-color to gray. -->
+                            <p class="lead text-muted mb-4">
+                              I specialize in building web applications using Bootstrap 5 and custom CSS. Scroll down to see what I have been working on.
+                            </p>
+
+                            <!-- d-sm-flex will only be applied when the screen size is too small, the buttons will apear on top of each other. -->
+                            <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                              <!-- 1st button -->
+                              <a href="#about" class="btn btn-primary btn-lg text-uppercase">Learn More<i class="fa-regular fa-circle-question ms-2"></i> </a>
+
+                              <!-- 2nd button -->
+                              <a href="#projects" class="btn btn-outline-primary btn-lg text-uppercase">View my work<i class="fa-regular fa-eye ms-2"></i></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Some description end -->
+
+                    <!-- justify-content-center controls the horizontal alignment of flex items -->
+
+                     <!-- Image start -->
+                    <div class="col-xl-5 col-xxl-6 justify-content-center">
+                      <img src="./images/hero-img.jpg" alt="Hero Image" class="img-fluid rounded-3 my-5">
+                    </div>
+                    <!-- Image end -->
+
+                </div>
+                <!-- hero content end -->
+            </div>
+        </header>
+        <!-- header end -->
+      </div>
+      <!-- hero end -->
+
+      <!-- main start -->
+      <main>
+        <!-- About start -->
+        <section id="about" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <div class="fw-bold">
+                <h3>About</h3>
+              </div>
+              <p class="lead text-muted mb-5">
+                I am a freelance front-end developer who builds fast, elegant, and scalable web applications.
+              </p>
+            </div>
+          </div>
+
+          <div class="container mb-5">
+            <div class="row">
+              <!-- Design start -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <i class="fa-solid fa-palette m-auto text-primary"></i>
+                </div>
+                <h3>Design</h3>
+                <p class="text-muted mb-0">
+                  I create beautiful, modern designs optimized for multiple color modes (light and dark themes).
+                </p>
+              </div>
+              <!-- Design end -->
+
+              <!-- Code start -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <i class="fa-solid fa-code m-auto text-primary"></i>
+                </div>
+                <h3>Development</h3>
+                <p class="text-muted mb-0">
+                  I develop responsive, scalable, and fast applications using the best standards and coding practices.
+                </p>
+              </div>
+              <!-- Code end -->
+
+              <!-- Settings start -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <i class="fa-solid fa-rocket m-auto text-primary""></i>
+                </div>
+                <h3>Launch & Maintenance</h3>
+                <p class="text-muted mb-0">
+                  Once the application is ready, I will help you to launch it and teach you how to update and maintain it.
+                </p>
+              </div>
+              <!-- Settings end -->
+            </div>
+          </div>
+        </section>
+        <!-- About end -->
+
+        <!-- Projects start -->
+
+        <!-- Projects end -->
+
+        <!-- Testimonials start -->
+
+        <!-- Testimonials end -->
+
+        <!-- Contact start -->
+
+        <!-- Contact end -->
+      </main>
+      <!-- main end -->
+    </div>
+
+    <!-- Footer start -->
+
+    <!-- Footer end -->
+
+    <!-- Project end -->
+
+    <!-- bootstrap 5 cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"
+      integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

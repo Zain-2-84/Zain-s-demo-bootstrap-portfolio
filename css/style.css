@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+
+
+body, .intro-section{
+    font-size: 2.5rem;
+}
+
+.intro-heading, .intro-occupation{
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .me-1{
+    margin-right: 1rem;
+} */
+
+.fa-laptop-code {
+    vertical-align: middle;
+    line-height: 1rem;
+}
+
+.navbar > .fa-laptop-code{
+    font-size: 2.5rem;
+}
+
+.fa-palette, .fa-code, .fa-rocket{
+    font-size: 2.5rem;
+}
+
